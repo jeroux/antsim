@@ -17,3 +17,5 @@ npm run typecheck
 ```
 
 Vite + TypeScript + Canvas 2D, aucune dépendance à l'exécution.
+
+Site : https://jeroux.github.io/antsim/ (branche `gh-pages`, construite avec `vite build --base=/antsim/`). Le déploiement automatique par Action est dans `.github/workflows/pages.yml`, à pousser dès que le jeton GitHub a la portée `workflow`.
